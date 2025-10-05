@@ -1,0 +1,101 @@
+00:00:00.006221 main     VirtualBox COM Server 7.2.2 r170484 win.amd64 (Sep 10 2025 19:56:01) release log
+00:00:00.006689 main     Log opened 2025-09-25T07:39:58.584852300Z
+00:00:00.006690 main     Build Type: release
+00:00:00.006695 main     OS Product: Windows 11
+00:00:00.009753 main     OS Release: 10.0.26100.6584
+00:00:00.009754 main     OS Service Pack: 
+00:00:00.048543 main     DMI Product Name: HP Pavilion Laptop 15-eg0xxx
+00:00:00.062352 main     DMI Product Version: Type1ProductConfigId
+00:00:00.062367 main     Firmware type: UEFI
+00:00:00.062830 main     Secure Boot: Enabled
+00:00:00.063330 main     Host RAM: 16149MB (15.7GB) total, 5002MB (4.8GB) available
+00:00:00.063337 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.063337 main     Process ID: 18608
+00:00:00.063337 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.063810 main     Windows Features:
+00:00:00.063811 main       Core Isolation (Memory Integrity): ENABLED
+00:00:00.137765          VirtualBox: object creation starts
+00:00:00.140733          Home directory: 'C:\Users\HP\.VirtualBox'
+00:00:00.141406          Installed Drivers:
+00:00:00.162412          Loading settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.169475          usbLibGetDevices: Starting USB device enumeration
+00:00:00.195416          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.195477          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.195534          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29450ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.201180          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.205555          USB: Unknown USB device detected (idVendor: 0x04f3, idProduct: 0x0c00)
+00:00:00.205588          USB: Unknown USB device detected (idVendor: 0x05c8, idProduct: 0x03df)
+00:00:00.205835          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0xb00c)
+00:00:00.331237          netIfIsWireless: CreateFile on '\\.\{C3FE8166-A4BB-43DD-B80C-E37B30B78060}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.336114          HostDnsMonitor: initializing
+00:00:00.345413          HostDnsMonitor: updating information
+00:00:00.346008          HostDnsMonitor: old information
+00:00:00.346009            no server entries
+00:00:00.346009            no domain set
+00:00:00.346010            no search string entries
+00:00:00.346010          HostDnsMonitor: new information
+00:00:00.346010            server 1: 8.8.8.8
+00:00:00.346011            server 2: 8.8.4.4
+00:00:00.346011            domain: kdusc.lk
+00:00:00.346012            no search string entries
+00:00:00.356098          VD: VDInit finished with VINF_SUCCESS
+00:00:00.360473          Platform architecture set to 'x86'
+00:00:00.370840          Loading settings file "C:\Users\HP\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.19-windows"
+00:00:00.373628          Platform architecture set to 'x86'
+00:00:00.376644          VirtualBox: object created
+00:00:01.157885          Saving settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.160748          Finished saving settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml"
+00:00:01.160988          Saving settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.163179          Finished saving settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml"
+00:00:01.163424          Saving settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.165938          Finished saving settings file "C:\Users\HP\.VirtualBox\VirtualBox.xml"
+00:00:01.296937          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:01.455769          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:04.997799          Launched VM: 2796151408 pid: 33276 (0x81fc) frontend: GUI/Qt name: ubuntu
+00:00:05.007817          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.025545          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:11.836633          Platform architecture set to 'x86'
+00:00:12.011169          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:12.030152          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:14.927129          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:17.734533          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:17.758366          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:17.781531          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+00:00:17.790991          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+00:00:17.797416          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:00:18.609965          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:18.610322          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:18.610779          HostDnsMonitorProxy::GetDomainName: kdusc.lk
+00:00:18.610855          HostDnsMonitorProxy::GetNameServers:
+00:00:18.610864            name server 1: 8.8.8.8
+00:00:18.610868            name server 2: 8.8.4.4
+00:00:18.610901          HostDnsMonitorProxy::GetSearchStrings:
+00:00:18.610905            no search string entries
+00:00:23.190990          Saving settings file "C:\Users\HP\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.19-windows"
+00:00:23.194819          Finished saving settings file "C:\Users\HP\VirtualBox VMs\ubuntu\ubuntu.vbox"
+00:00:23.221892          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:23.275000          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:23.304518          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:03:04.413630          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:04.423387          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:03:04.520061          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:03:09.235056          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:03:09.260924          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:09.274937          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+00:03:14.929681          Saving settings file "C:\Users\HP\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.19-windows"
+00:03:14.932338          Finished saving settings file "C:\Users\HP\VirtualBox VMs\ubuntu\ubuntu.vbox"
+00:03:14.937729          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:03:14.952236          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:03:14.956735 SaveState Saving settings file "C:\Users\HP\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.19-windows"
+00:03:14.960093 SaveState Finished saving settings file "C:\Users\HP\VirtualBox VMs\ubuntu\ubuntu.vbox"
+00:03:14.984318          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:03:14.995882          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:15.087168          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:03:16.452155          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:16.470439          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:03:24.394602 main     VirtualBox: object deletion starts
+00:03:24.394647 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\HP\VirtualBox VMs\ubuntu\ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:03:24.397204 main     HostDnsMonitor: shutting down ...
+00:03:24.397253 main     HostDnsMonitor: shut down
+00:03:24.400059 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:03:24.400220 main     VirtualBox: object deleted
